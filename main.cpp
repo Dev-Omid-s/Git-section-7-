@@ -1,6 +1,7 @@
 #include <iostream>
 #include <string>
 
+
 int main () {
 
     std::cout << " Hi , Please Enter your First Name : " << std::endl ;
@@ -12,6 +13,10 @@ int main () {
     std::cin >> lName ;
 
     std::cout << "  its Great , your full Name is \"" << fName + lName << "\"" << std::endl ;
+    std::cout << " Please Enter your Age : " << std::endl ;
+    int Age ;
+    std::cin >> Age ;
+
 
     return 0 ;
 }
